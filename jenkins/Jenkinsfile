@@ -6,13 +6,13 @@ pipeline {
         }
     }
     stages {
-        stage('Build') {
+        stage('Building') {
             steps {
                 // sh 'mvn -B -DskipTests clean package'
                 echo "today session is jenkins"
             }
         }
-        stage('Test') {
+        stage('Testing') {
             steps {
                 echo "running test stage successfully"
             }
@@ -22,7 +22,7 @@ pipeline {
             //     }
             // }
         }
-        stage('Deploy') {
+        stage('Deploying') {
             steps {
                 echo "deployment is success"
             }
