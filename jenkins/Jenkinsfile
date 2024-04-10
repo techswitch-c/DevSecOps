@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo "running test stage successfully
+                echo "running test stage successfully"
             }
             // post {
             //     always {
